@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+
+.btn:hover {
+  background-color: rgb(51, 148, 126);
+  color: white;
+  transition: ease 0.5s;
+  transform-style: flat;
+}
+
+span {
+  color: bisque;
+  }
+
+.container {
+  background-image: linear-gradient(to right,rgba(27, 22, 22, 0.6),rgba(232, 16, 16, 0.4)), url(Afterlife.png);
+  background-repeat: no-repeat;
+  height: 1500%;
+  width: 1000px;
+  background-size: cover;
+  }
+
+.nav{
+  background-color: black;
+}
+  .nav ul li {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(238, 94, 22);
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500;
+     }
+
+.middle {
+  padding-top: 90px;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 60px;
+  margin-left: 50px;
+  text-decoration: underline;
+  color: beige;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-shadow:3px 4px 10px red 
+}
+
+h2::first-letter {
+  font-size: 25px;
+}
+
+h1 {
+  padding-bottom: 40px;
+  margin-left: 70px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+h3 {
+  margin-top: 90px;
+  margin-left: 90px;
+  color: rgb(186, 203, 29);
+  font-family: "Baumans", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+button {
+  margin-top: 60px;
+  margin-left: 120px;
+  padding: 5px;
+  border-radius: 50px;
+   background-color: rgb(172, 119, 41);
+  font-family: cursive;
+   }
+
+.box1 {
+  border: 2px solid rgb(221, 163, 30);
+  background-color: rgb(221, 163, 30);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 60px;
+}
+
+.box2 {
+  border: 2px solid rgb(30, 162, 213);
+  background-color: rgb(30, 162, 213);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 60px;
+ }
+
+.box3 {
+  border: 2px solid rgb(115, 15, 158);
+  background-color: rgb(115, 15, 158);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 60px;
+}
+
+li {
+  list-style: none;
+  color: rgb(100, 105, 143);
+}
+
+ p {
+  color: rgb(94, 148, 119);
+  text-shadow:3px 4px 10px rgb(161, 190, 32) 
+}
+
+.box-bottom {
+width: 15em;
+text-align: left;
+}
+
+.boxlar ul{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 7em;
+  margin-right: 10em;
+   }
+
+
+  .kutu1 {
+   width: 15px;
+   height: 15px;
+    }
+
+  
